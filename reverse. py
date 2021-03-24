@@ -1,0 +1,11 @@
+n= int(input("Enter the integer number: "))  
+  
+r_num= 0  
+  
+
+while (n > 0):  
+    # Logic  
+    remainder = n% 10  
+    r_num= (r_num * 10) + remainder  
+    n = n // 10  
+print("reverse no is:",r_num)
